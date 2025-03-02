@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.min.css">
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   </head>
 <body>
 
     <!-- 🔹 Skip Link (Passer directement au contenu) -->
     <a href="#main-content" class="skip-link">⏩ Aller au contenu principal</a>
+    <!-- 🔹 annonce -->
+    <div id="status-message" aria-live="polite"></div>
 
     <!-- 🔹 Bouton Mode Sombre -->
     <button id="toggle-darkmode">🌙 Activer le mode sombre</button>
 
     <!-- 🔹 MENU DE NAVIGATION -->
+    <nav role="navigation">
    <!-- 🔹 MENU RESPONSIVE -->
   <nav>
-    <button id="menu-btn" aria-label="Ouvrir le menu">☰ Menu</button>
+    <button id="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">☰ Menu</button>
      <ul id="menu">
       <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/">Accueil</a></li>
       <li class="{% if page.url == '/plan' %}active{% endif %}"><a href="{{ site.baseurl }}/plan">Plan d'Action</a></li>
@@ -40,8 +44,8 @@
         <p>© 2025 Hestia | Projet Open Source sous licence CC BY-SA</p>
     </footer>
     <!-- menu deroulant-->
-    <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/animations.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/menu.js" defer></script>
+    <script src="{{ site.baseurl }}/assets/js/animations.js" defer></script>
     <!-- 🔹 Script Mode Sombre -->
     <script src="{{ site.baseurl }}/assets/js/darkmode.js"></script>
 <!-- 🔹 Bouton Retour en haut -->
