@@ -31,8 +31,15 @@
       <li class="{% if page.url == '/poles' %}active{% endif %}"><a href="{{ site.baseurl }}/poles">Les Pôles</a></li>
       <li class="{% if page.url == '/ressources' %}active{% endif %}"><a href="{{ site.baseurl }}/ressources">Ressources</a></li>
       <li class="{% if page.url == '/faq/qui-sommes-nous' %}active{% endif %}"><a href="{{ site.baseurl }}/faq/qui-sommes-nous">Qui sommes-nous ?</a></li>
-      </ul>
+      <li class="{% if page.url == '/faq/qui-sommes-nous' %}active{% endif %}"><a href="{{ site.baseurl }}/contribution">🤝 Contribuer</a></li>
+
+    </ul>
     </nav>
+<!-- 🔹 Sommaire généré automatiquement -->
+<nav id="table-of-contents">
+  <h3>📌 Sommaire</h3>
+  <ul id="toc-list"></ul>
+</nav>
 
     <!-- 🔹 CONTENU DE LA PAGE -->
     <main id="main-content">
@@ -48,6 +55,9 @@
     <script src="{{ site.baseurl }}/assets/js/animations.js" defer></script>
     <!-- 🔹 Script Mode Sombre -->
     <script src="{{ site.baseurl }}/assets/js/darkmode.js"></script>
+    <!-- 🔹 Script sommaire -->
+    <script src="{{ site.baseurl }}/assets/js/toc.js" defer></script>
+
 <!-- 🔹 Bouton Retour en haut -->
 <a href="#" id="scrollTop" aria-label="Retour en haut">↑</a>
 

@@ -7,9 +7,27 @@ title: "📚 Ressources & Outils"
 Cette page regroupe **toutes les ressources essentielles** pour lutter contre les expulsions.
 💡 **Besoin d’aide ? Consulte ces contacts, modèles et outils !**
 
+## 📞 Urgences et Hébergement
+- **115** → Numéro d’urgence pour l’hébergement d’urgence
+- **Droit Au Logement (DAL)** → [Site officiel](https://www.droitaulogement.org)
+- **Croix-Rouge Française** → [Trouver un centre](https://www.croix-rouge.fr)
+
+## 🏥 Santé et Aide Psychologique
+- **PASS (Permanence Accès Soins Santé)** → Accessible dans les hôpitaux
+- **Médecins du Monde** → [Accès aux soins gratuits](https://www.medecinsdumonde.org)
+- **Psychologues Sans Frontières** → Soutien psychologique pour précaires
+
+## ⚖️ Aide Juridique et Droits
+- **Avocats Solidaires** → [Trouver une aide juridique](https://www.barreau.paris/solidarite)
+- **Défenseur des Droits** → [Faire une réclamation](https://www.defenseurdesdroits.fr)
+
+## 🍽️ Aide Alimentaire
+- **Restos du Cœur** → [Localiser un centre](https://www.restosducoeur.org)
+- **Secours Populaire** → [Accès à l’aide alimentaire](https://www.secourspopulaire.fr)
+
 ---
 
-## 📞 **1. Contacts utiles en cas d’expulsion**
+# 📞 **1. Contacts utiles en cas d’expulsion**
 
 🎯 **Pourquoi ?** Certains organismes peuvent vous aider immédiatement.
 
@@ -26,7 +44,7 @@ Cette page regroupe **toutes les ressources essentielles** pour lutter contre le
 
 ---
 
-## 📄 **2. Modèles de documents et recours juridiques**
+# 📄 **2. Modèles de documents et recours juridiques**
 
 🎯 **Pourquoi ?** Ces modèles permettent d’agir rapidement et efficacement.
 
@@ -40,7 +58,7 @@ Cette page regroupe **toutes les ressources essentielles** pour lutter contre le
 
 ---
 
-## 🛠 **3. Outils et plateformes collaboratives**
+# 🛠 **3. Outils et plateformes collaboratives**
 
 🎯 **Pourquoi ?** Ces outils permettent de mieux organiser l’aide et les actions collectives.
 
@@ -55,7 +73,7 @@ Cette page regroupe **toutes les ressources essentielles** pour lutter contre le
 
 ---
 
-## 📢 **Besoin d’aide supplémentaire ?**
+# 📢 **Besoin d’aide supplémentaire ?**
 
 💡 **D’autres ressources sont disponibles sur le site !**
 🔹 **[Plan d’Action](plan.md)** → Que faire en cas d’expulsion ?
