@@ -62,6 +62,55 @@ ul, ol {
   background: #007acc;
 }
 
+/* 🔹 MENU RESPONSIVE */
+#menu-btn {
+  display: none;
+  background: #0056b3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+      display: none;
+      flex-direction: column;
+      background: #0056b3;
+      padding: 10px;
+      position: absolute;
+      width: 100%;
+      top: 50px;
+      left: 0;
+  }
+
+  nav ul.show {
+      display: flex;
+  }
+
+  #menu-btn {
+      display: block;
+  }
+
+  nav ul li {
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  nav ul li a {
+      color: white;
+      font-size: 1.2rem;
+  }
+}
+/* 🔹 Indiquer la page active dans le menu */
+nav ul li.active a {
+  font-weight: bold;
+  border-bottom: 3px solid white;
+}
+
 /* 🔹 Liens */
 a {
     color: #004080;
@@ -159,4 +208,22 @@ nav ul li a:hover {
 }
 .dark-mode #toggle-darkmode:hover {
     background: #003f7f;
+}
+
+/* 🔹 Bouton Retour en Haut */
+#scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#scrollTop.show {
+  display: block;
 }
