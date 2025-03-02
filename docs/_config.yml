@@ -1,0 +1,26 @@
+# Configuration de Jekyll pour GitHub Pages
+
+title: "Hestia - Plan d'Action contre les Expulsions"
+description: "Un projet collaboratif pour organiser une réponse face aux expulsions."
+baseurl: ""  # Laisser vide pour GitHub Pages
+url: "https://5136.fr"  # Lien du site
+
+# Thème par défaut (ex: minima, cayman, slate...)
+theme: minima
+
+# Inclure les fichiers dans la génération
+include:
+  - _pages
+
+# Ajouter un CSS personnalisé
+sass:
+  sass_dir: "assets/css"
+  style: compressed
+
+# Désactiver les futures fonctionnalités de Jekyll
+future: false
+
+# Plugins à utiliser (facultatif)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
