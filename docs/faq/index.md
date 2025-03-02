@@ -6,6 +6,7 @@ title: "❓ FAQ"
 
 ## 🏠 Hestia, c'est quoi ?
 Hestia est un projet open-source visant à organiser une réponse efficace aux expulsions.
+[Voir](qui-sommes-nous.md)
 
 ## 🔥 Comment puis-je aider ?
 Vous pouvez :
