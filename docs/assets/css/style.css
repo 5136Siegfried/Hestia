@@ -270,34 +270,59 @@ details[open] {
   background: #dbe9ff;
 }
 
-/* 🔹 Sommaire flottant */
+/* 🔹 Sommaire - Fixe en desktop, déroulant en mobile */
 #table-of-contents {
-  position: fixed;
-  top: 80px;
+  position: sticky;
+  top: 100px; /* Ne gêne pas l'en-tête */
   left: 20px;
-  background: white;
+  background: #fff;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   max-width: 250px;
   font-size: 0.9rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-#table-of-contents h3 {
-  margin: 0;
-  font-size: 1rem;
-  color: var(--primary-color);
+
+/* En desktop : fixé sur le côté gauche */
+@media (min-width: 1024px) {
+  #table-of-contents {
+      position: fixed;
+      top: 100px;
+      left: 20px;
+      max-height: 80vh; /* Pour éviter qu'il ne déborde trop */
+      overflow-y: auto; /* Scroll si trop long */
+  }
 }
-#table-of-contents ul {
-  list-style: none;
-  padding: 0;
+
+/* En mobile : caché par défaut et activable */
+@media (max-width: 1023px) {
+  #table-of-contents {
+      position: absolute;
+      top: 50px;
+      left: 10px;
+      right: 10px;
+      max-width: 90%;
+      display: none; /* Caché par défaut */
+  }
+
+  /* Bouton pour afficher le sommaire */
+  #toc-toggle {
+      display: block;
+      text-align: center;
+      background: var(--primary-color);
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 10px auto;
+      width: max-content;
+  }
 }
-#table-of-contents ul li {
-  margin: 5px 0;
-}
-#table-of-contents ul li a {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-#table-of-contents ul li a:hover {
-  text-decoration: underline;
+
+/* Bouton visible uniquement en mobile */
+@media (min-width: 1024px) {
+  #toc-toggle {
+      display: none;
+  }
 }
