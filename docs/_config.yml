@@ -4,6 +4,8 @@ title: "Hestia - Plan d'Action contre les Expulsions"
 description: "Un projet collaboratif pour organiser une réponse face aux expulsions."
 baseurl: ""  # Laisser vide pour GitHub Pages
 url: "https://5136.fr"  # Lien du site
+enforce_ssl: true
+
 
 # Thème par défaut (ex: minima, cayman, slate...)
 theme: minima

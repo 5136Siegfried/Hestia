@@ -1,0 +1,5 @@
+# 🔹 Protection contre le hotlinking
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https://(www\.)?.5136.fr/.*$ [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [F]
