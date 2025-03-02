@@ -6,9 +6,12 @@ css: assets/css/style.css
 
 # 🏠 Plan d'Action contre les Expulsions
 
+<h2 class="fade-in">Bienvenue sur Hestia</h2>
+<p class="fade-in">
+
 Bienvenue sur **Hestia**, un projet collaboratif visant à organiser une réponse efficace face aux expulsions.
 Notre objectif est de proposer un plan d'action structuré, accessible à tous, et évolutif.
-Au delà de la question des expulsions qui sont un événement traumatique grave. Nous visons à créer une boite à outil au Monde de la Rue.
+Au delà de la question des expulsions qui sont un événement traumatique grave. Nous visons à créer une boite à outil au Monde de la Rue.</p>
 
 ---
 

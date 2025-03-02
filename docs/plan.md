@@ -2,10 +2,7 @@
 layout: default
 title: "Plan"
 ---
----
-layout: default
-title: "📜 Plan d'Action"
----
+
 # 📜 Plan d'Action contre les Expulsions
 
 ## 🎯 Objectifs
