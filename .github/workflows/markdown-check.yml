@@ -1,0 +1,23 @@
+name: Markdown Linter
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v3
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Installer markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Vérifier les fichiers Markdown
+        run: markdownlint '**/*.md' --ignore node_modules
