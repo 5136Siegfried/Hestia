@@ -25,17 +25,17 @@ Chaque bénévole a un rôle précis, et la coordination permet une action rapid
 
 Les actions sont organisées en **9 pôles spécialisés**, chacun ayant une mission précise.
 
-| **Pôle**              | **Responsabilité** |
-|----------------------|------------------|
-| 📣 **Mobilisation**  | Organiser la mobilisation, médiatiser et sensibiliser |
-| 🚚 **Logistique**   | Assurer le transport et le stockage des biens |
-| 🏠 **Hébergement**   | Trouver des solutions de relogement temporaire |
-| 🍽️ **Nourriture**   | Gérer la distribution de repas aux personnes expulsées |
-| ⚖️ **Légal**         | Accompagner les victimes sur le plan juridique |
-| 🏥 **Santé**         | Offrir une assistance médicale et psychologique |
-| 💙 **Soutien psycho** | Accompagner les expulsés et bénévoles psychologiquement |
-| 📢 **Communication**  | Informer le public et les médias |
-| 📋 **Coordination**   | Superviser les actions et assurer la liaison entre pôles |
+| **Pôle**              | **Responsabilité** | 🔗 **Lien** |
+|----------------------|------------------|-------------|
+| 📣 **Mobilisation**  | Organiser la mobilisation, médiatiser et sensibiliser | [Voir](poles/mobilisation.md) |
+| 🚚 **Logistique**   | Assurer le transport et le stockage des biens | [Voir](poles/logistique.md) |
+| 🏠 **Hébergement**   | Trouver des solutions de relogement temporaire | [Voir](poles/hebergement.md) |
+| 🍽️ **Nourriture**   | Gérer la distribution de repas | [Voir](poles/nourriture.md) |
+| ⚖️ **Légal**         | Aide juridique et recours | [Voir](poles/legal.md) |
+| 🏥 **Santé**         | Assistance médicale et premiers secours | [Voir](poles/sante.md) |
+| 💙 **Soutien psycho** | Accompagner expulsés et bénévoles | [Voir](poles/soutien-psy.md) |
+| 📢 **Communication**  | Informer le public et les médias | [Voir](poles/communication.md) |
+| 📋 **Coordination**   | Superviser et organiser | [Voir](poles/coordination.md) |
 
 ---
 
