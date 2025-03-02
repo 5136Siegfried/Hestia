@@ -6,7 +6,7 @@ title: "❓ Qui est derrière le collectif Hestia ?"
 
 ### **Qui est à l’origine du projet ?**
 
-Je suis **Siegfried SEKKAI**, **développeur et dirigeant d’une association de maraude sanitaire**.
+Je suis **Siegfried SEKKAI**, **développeur et ancien co-dirigeant d’une association de maraude sanitaire**.
 Face à l’impuissance de mon association, **le CSOR**, à soigner et réinsérer les personnes vivant à la rue, la réponse était évidente :
 **lutter en amont pour empêcher les gens de se retrouver à la rue**.
 
