@@ -9,21 +9,34 @@ Chaque pôle joue un rôle essentiel dans **l’organisation et la gestion des e
 
 ---
 
-## 📋 **Liste des Pôles d'Action**
+# 🏛 Les Pôles d'Action
 
-| **Pôle**              | **Mission Principale** | 🔗 **Accès** |
-|----------------------|------------------|-------------|
-| 📣 **Mobilisation**  | Organiser la mobilisation, médiatiser et sensibiliser | [Voir](mobilisation.md) |
-| 🚚 **Logistique**   | Assurer le transport et le stockage des biens | [Voir](logistique.md) |
-| 🏠 **Hébergement**   | Trouver des solutions de relogement temporaire | [Voir](hebergement.md) |
-| 🍽️ **Nourriture**   | Gérer la distribution de repas | [Voir](nourriture.md) |
-| ⚖️ **Légal**         | Aide juridique et recours | [Voir](legal.md) |
-| 🏥 **Santé**         | Assistance médicale et premiers secours | [Voir](sante.md) |
-| 💙 **Soutien Psycho** | Accompagner expulsés et bénévoles | [Voir](soutien-psy.md) |
-| 📢 **Communication**  | Informer le public et les médias | [Voir](communication.md) |
-| 📋 **Coordination**   | Superviser et organiser | [Voir](coordination.md) |
+Chaque pôle joue un rôle essentiel dans **l’organisation et la gestion des expulsions**.
+📌 **Cliquez sur un pôle pour voir ses actions et ressources.**
 
----
+<div class="pole-grid">
+    <div class="pole-card">
+        <h3>📣 Mobilisation</h3>
+        <p>Organiser la mobilisation et sensibiliser.</p>
+        <a href="mobilisation.md" class="button">Voir ➜</a>
+    </div>
+    <div class="pole-card">
+        <h3>🚚 Logistique</h3>
+        <p>Gérer le transport et le stockage des biens.</p>
+        <a href="logistique.md" class="button">Voir ➜</a>
+    </div>
+    <div class="pole-card">
+        <h3>🏠 Hébergement</h3>
+        <p>Trouver des solutions de relogement.</p>
+        <a href="hebergement.md" class="button">Voir ➜</a>
+    </div>
+    <div class="pole-card">
+        <h3>⚖️ Légal</h3>
+        <p>Aide juridique et défense des droits.</p>
+        <a href="legal.md" class="button">Voir ➜</a>
+    </div>
+</div>
+
 
 ## 🔍 **Comment choisir un pôle ?**
 
