@@ -18,47 +18,47 @@ Chaque pôle joue un rôle essentiel dans **l’organisation et la gestion des e
     <div class="pole-card">
         <h3>📣 Mobilisation</h3>
         <p>Organiser la mobilisation et sensibiliser.</p>
-        <a href="mobilisation.md" class="button">Voir ➜</a>
+        <a href="poles/mobilisation.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3>🚚 Logistique</h3>
         <p>Gérer le transport et le stockage des biens.</p>
-        <a href="logistique.md" class="button">Voir ➜</a>
+        <a href="poles/logistique.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3>🏠 Hébergement</h3>
         <p>Trouver des solutions de relogement.</p>
-        <a href="hebergement.md" class="button">Voir ➜</a>
+        <a href="poles/hebergement.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3>🍽️ Nourriture</h3>
         <p>Gérer la distribution de repas.</p>
-        <a href="nourriture.md" class="button">Voir ➜</a>
+        <a href="poles/nourriture.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3>⚖️ Légal</h3>
         <p>Aide juridique et défense des droits.</p>
-        <a href="legal.md" class="button">Voir ➜</a>
+        <a href="poles/legal.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3> 🏥 Santé</h3>
         <p>Assistance médicale et premiers secours</p>
-        <a href="sante.md" class="button">Voir ➜</a>
+        <a href="poles/sante.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3>💙 Soutien Psycho</h3>
         <p>Accompagner expulsés et bénévoles</p>
-        <a href="soutien-psy.md" class="button">Voir ➜</a>
+        <a href="poles/soutien-psy.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3>📢 Communication</h3>
         <p> Informer le public et les médias</p>
-        <a href="communication.md" class="button">Voir ➜</a>
+        <a href="poles/communication.md" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
         <h3>📋 Coordination</h3>
         <p>Superviser et organiser</p>
-        <a href="coordination.md" class="button">Voir ➜</a>
+        <a href="poles/coordination.md" class="button">Voir ➜</a>
     </div>
 </div>
 
@@ -88,4 +88,4 @@ Chaque pôle est **indispensable** pour organiser une réponse efficace face aux
 📌 **Voir aussi :**
 🔹 **[Plan d’Action](../plan.md)**
 🔹 **[Feuille de Route](../feuille-de-route.md)**
-🔹 **[FAQ](../faq.md)**
+<li><a href="{{ site.baseurl }}/faq">FAQ</a></li>
