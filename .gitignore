@@ -1,0 +1,11 @@
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+
+# Dépendances
+node_modules/
+venv/
+
+# Fichiers sensibles
+.env
