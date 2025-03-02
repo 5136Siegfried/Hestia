@@ -4,42 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.min.css">
+
+    <!-- 🔹 Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon/favicon.ico">
+
+    <!-- 🔹 Stylesheets -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.min.css">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  </head>
+</head>
 <body>
 
     <!-- 🔹 Skip Link (Passer directement au contenu) -->
     <a href="#main-content" class="skip-link">⏩ Aller au contenu principal</a>
-    <!-- 🔹 annonce -->
+
+    <!-- 🔹 Message dynamique -->
     <div id="status-message" aria-live="polite"></div>
+
+    <!-- 🔹 HEADER -->
+    <header class="site-header">
+        <h1>Hestia – Plan d'Action contre les Expulsions</h1>
+        <p>Un projet collaboratif pour organiser une réponse efficace face aux expulsions.</p>
+    </header>
+
+    <!-- 🔹 MENU DE NAVIGATION -->
+    <nav role="navigation">
+        <button id="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">☰ Menu</button>
+        <ul id="menu">
+            <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/">Accueil</a></li>
+            <li class="{% if page.url == '/plan' %}active{% endif %}"><a href="{{ site.baseurl }}/plan">Plan d'Action</a></li>
+            <li class="{% if page.url == '/poles' %}active{% endif %}"><a href="{{ site.baseurl }}/poles">Les Pôles</a></li>
+            <li class="{% if page.url == '/ressources' %}active{% endif %}"><a href="{{ site.baseurl }}/ressources">Ressources</a></li>
+            <li class="{% if page.url == '/faq/qui-sommes-nous' %}active{% endif %}"><a href="{{ site.baseurl }}/faq/qui-sommes-nous">Qui sommes-nous ?</a></li>
+            <li class="{% if page.url == '/contribution' %}active{% endif %}"><a href="{{ site.baseurl }}/contribution">🤝 Contribuer</a></li>
+        </ul>
+    </nav>
 
     <!-- 🔹 Bouton Mode Sombre -->
     <button id="toggle-darkmode">🌙 Activer le mode sombre</button>
 
-    <!-- 🔹 MENU DE NAVIGATION -->
-    <nav role="navigation">
-   <!-- 🔹 MENU RESPONSIVE -->
-  <nav>
-    <button id="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">☰ Menu</button>
-     <ul id="menu">
-      <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/">Accueil</a></li>
-      <li class="{% if page.url == '/plan' %}active{% endif %}"><a href="{{ site.baseurl }}/plan">Plan d'Action</a></li>
-      <li class="{% if page.url == '/poles' %}active{% endif %}"><a href="{{ site.baseurl }}/poles">Les Pôles</a></li>
-      <li class="{% if page.url == '/ressources' %}active{% endif %}"><a href="{{ site.baseurl }}/ressources">Ressources</a></li>
-      <li class="{% if page.url == '/faq/qui-sommes-nous' %}active{% endif %}"><a href="{{ site.baseurl }}/faq/qui-sommes-nous">Qui sommes-nous ?</a></li>
-      <li class="{% if page.url == '/faq/qui-sommes-nous' %}active{% endif %}"><a href="{{ site.baseurl }}/contribution">🤝 Contribuer</a></li>
-
-    </ul>
+    <!-- 🔹 Sommaire généré automatiquement -->
+    <nav id="table-of-contents">
+        <h3>📌 Sommaire</h3>
+        <ul id="toc-list"></ul>
     </nav>
-<!-- 🔹 Sommaire généré automatiquement -->
-<nav id="table-of-contents">
-  <h3>📌 Sommaire</h3>
-  <ul id="toc-list"></ul>
-</nav>
 
     <!-- 🔹 CONTENU DE LA PAGE -->
     <main id="main-content">
@@ -50,21 +59,15 @@
     <footer>
         <p>© 2025 Hestia | Projet Open Source sous licence CC BY-SA</p>
     </footer>
-    <!-- menu deroulant-->
+
+    <!-- 🔹 Scripts -->
     <script src="{{ site.baseurl }}/assets/js/menu.js" defer></script>
     <script src="{{ site.baseurl }}/assets/js/animations.js" defer></script>
-    <!-- 🔹 Script Mode Sombre -->
-    <script src="{{ site.baseurl }}/assets/js/darkmode.js"></script>
-    <!-- 🔹 Script sommaire -->
+    <script src="{{ site.baseurl }}/assets/js/darkmode.js" defer></script>
     <script src="{{ site.baseurl }}/assets/js/toc.js" defer></script>
 
-<!-- 🔹 Bouton Retour en haut -->
-<a href="#" id="scrollTop" aria-label="Retour en haut">↑</a>
+    <!-- 🔹 Bouton Retour en haut -->
+    <a href="#" id="scrollTop" aria-label="Retour en haut">↑</a>
 
 </body>
-<header class="site-header">
-  <h1>Hestia – Plan d'Action contre les Expulsions</h1>
-  <p>Un projet collaboratif pour organiser une réponse efficace face aux expulsions.</p>
-</header>
-
 </html>
