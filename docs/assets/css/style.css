@@ -284,3 +284,21 @@ nav ul li a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* 🔹 Style des volets de la FAQ */
+details {
+  background: #f0f4f8;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details[open] {
+  background: #dbe9ff;
+}
