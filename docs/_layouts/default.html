@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+
+    <!-- 🔹 MENU DE NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="{{ site.baseurl }}/">🏠 Accueil</a></li>
+            <li><a href="{{ site.baseurl }}/plan">📜 Plan d'Action</a></li>
+            <li><a href="{{ site.baseurl }}/organisation">🛠 Organisation</a></li>
+            <li><a href="{{ site.baseurl }}/ressources">📚 Ressources</a></li>
+            <li><a href="{{ site.baseurl }}/contribution">🤝 Contribuer</a></li>
+        </ul>
+    </nav>
+
+    <!-- 🔹 CONTENU DE LA PAGE -->
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>© 2025 Hestia | Projet Open Source sous licence CC BY-SA</p>
+    </footer>
+
+</body>
+</html>
