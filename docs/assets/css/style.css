@@ -1,20 +1,67 @@
-/* 🔹 Style global */
+/* 🔹 Mise en page générale */
 body {
   font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
+  line-height: 1.8;
+  max-width: 900px;
   margin: auto;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #f8f9fa;
   color: #333;
 }
 
-/* 🔹 Titres */
-h1, h2, h3 {
-  color: #0056b3;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
+/* 🔹 Titres plus lisibles */
+h1 {
+  font-size: 2rem;
+  color: #003f7f;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 8px;
 }
+h2 {
+  font-size: 1.75rem;
+  color: #0056b3;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 1.5rem;
+  color: #007acc;
+}
+
+/* 🔹 Espacement et alignement des textes */
+p {
+  margin-bottom: 15px;
+}
+ul, ol {
+  margin-bottom: 15px;
+}
+
+/* 🔹 Mode sombre */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+.dark-mode nav {
+  background: #292b2f;
+}
+.dark-mode a {
+  color: #58a6ff;
+}
+
+/* 🔹 Bouton pour activer/désactiver le mode sombre */
+#toggle-darkmode {
+  display: block;
+  padding: 10px 15px;
+  background: #0056b3;
+  color: white;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+  width: max-content;
+}
+.dark-mode #toggle-darkmode {
+  background: #007acc;
+}
+
 
 /* 🔹 Liens */
 a {
@@ -52,4 +99,27 @@ th {
 }
 .button:hover {
   background: #003f7f;
+}
+
+/* 🔹 MENU DE NAVIGATION */
+nav {
+  background: #0056b3;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
 }

@@ -8,7 +8,33 @@
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const toggleButton = document.getElementById("toggle-darkmode");
+      const body = document.body;
+
+      // Vérifier le mode enregistré dans le localStorage
+      if (localStorage.getItem("dark-mode") === "enabled") {
+          body.classList.add("dark-mode");
+          toggleButton.textContent = "☀️ Activer le mode clair";
+      }
+
+      toggleButton.addEventListener("click", function() {
+          if (body.classList.contains("dark-mode")) {
+              body.classList.remove("dark-mode");
+              localStorage.setItem("dark-mode", "disabled");
+              toggleButton.textContent = "🌙 Activer le mode sombre";
+          } else {
+              body.classList.add("dark-mode");
+              localStorage.setItem("dark-mode", "enabled");
+              toggleButton.textContent = "☀️ Activer le mode clair";
+          }
+      });
+  });
+</script>
+
 <body>
+  <button id="toggle-darkmode">🌙 Activer le mode sombre</button>
 
     <!-- 🔹 MENU DE NAVIGATION -->
     <nav>
