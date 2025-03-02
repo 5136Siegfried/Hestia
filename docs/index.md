@@ -1,3 +1,9 @@
+---
+title: Hestia - Plan d'Action
+layout: default
+css: assets/css/style.css
+---
+
 # 🏠 Plan d'Action contre les Expulsions
 
 Bienvenue sur **Hestia**, un projet collaboratif visant à organiser une réponse efficace face aux expulsions.

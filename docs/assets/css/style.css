@@ -1,0 +1,55 @@
+/* 🔹 Style global */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* 🔹 Titres */
+h1, h2, h3 {
+  color: #0056b3;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* 🔹 Liens */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🔹 Tableaux */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* 🔹 Boutons */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #0056b3;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.button:hover {
+  background: #003f7f;
+}
