@@ -51,6 +51,17 @@
 
 **Note**: Il est recommandé de contacter ces associations et services en amont pour vérifier leurs disponibilités, les conditions d'intervention et les éventuelles aides proposés Certaines structures peuvent être spécifiques à certaines régions, il est donc important de se renseigner sur les solutions locales disponibls.
 
---
+### PRESSE
 
+- https://www.espacestockage.fr/espace-stockage-des-solutions-demontables-pour-un-stockage-temporaire
+- https://www.losbergerdeboer.com/fr/perspectives-professionnelles/le-batiment-de-stockage-temporaire-lallie-flexible-et-durable-de-votre-developpement/
+- https://www.mes-allocs.fr/guides/aide-pour-demenagement/cherche-aide-pour-demenager/quelle-est-lassociation-qui-aide-a-demenager/
+- https://www.mes-allocs.fr/guides/aide-pour-demenagement/cherche-aide-pour-demenager/quelle-est-lassociation-qui-aide-a-demenager/
+- https://www.adultes-vulnerables.fr/fiche-conseils-tutelle/gestion-des-droits-et-des-obligations/le-logement-et-les-objets-personnels
+- https://www.jeminforme.be/l-expulsion-d-un-locataire/
+- https://www.fondation-abbe-pierre.fr/sites/default/files/2022-07/Que%20deviennent%20les%20me%CC%81nages%20expulse%CC%81s%20de%20leur%20logement%20_-2.pdf
+- https://cademenage.org/
+- Manuel de réinstallation https://dl.icdst.org/pdfs/files3/bd492c15b2173ee925d8d24cdc71ceaf.pdf
+
+--
 *© 2025 Hestia | Projet Open Source sous licence CC BY-A*
