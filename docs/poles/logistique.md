@@ -137,20 +137,23 @@ Si les biens ne sont pas récupérés à temps, ils risquent d’être **mis en 
 
 ### 🚀 **Stratégies pour optimiser la logistique**
 
-**📦 1️⃣ Tri efficace des biens**
-✔ Séparer l’essentiel (documents, médicaments, vêtements) des objets secondaires.
-✔ Donner ce qui n’est pas indispensable pour **réduire le volume** à déplacer.
-✔ Emballer et étiqueter méthodiquement pour **retrouver facilement** les affaires.
+#### **📦 1️⃣ Tri efficace des biens**
 
-**🚚 2️⃣ Organisation du transport**
-✔ Lister les contacts pouvant prêter un véhicule ou aider au transport.
-✔ Repérer à l’avance les endroits où stationner le camion.
-✔ Planifier un itinéraire optimisé si plusieurs lieux de stockage sont impliqués.
+- ✔ Séparer l’essentiel (documents, médicaments, vêtements) des objets secondaires.
+- ✔ Donner ce qui n’est pas indispensable pour **réduire le volume** à déplacer.
+- ✔ Emballer et étiqueter méthodiquement pour **retrouver facilement** les affaires.
 
-**🤝 3️⃣ Mobilisation des ressources**
-✔ Contacter des entreprises et associations pour **négocier des aides** logistiques.
-✔ Demander un **appui aux collectifs de défense du logement**.
-✔ Anticiper l’achat de cartons, couvertures, chariots de transport.
+#### **🚚 2️⃣ Organisation du transport**
+
+- ✔ Lister les contacts pouvant prêter un véhicule ou aider au transport.
+- ✔ Repérer à l’avance les endroits où stationner le camion.
+- ✔ Planifier un itinéraire optimisé si plusieurs lieux de stockage sont impliqués.
+
+#### **🤝 3️⃣ Mobilisation des ressources**
+
+- ✔ Contacter des entreprises et associations pour **négocier des aides** logistiques.
+- ✔ Demander un **appui aux collectifs de défense du logement**.
+- ✔ Anticiper l’achat de cartons, couvertures, chariots de transport.
 
 ---
 
@@ -160,10 +163,10 @@ Chaque expulsion est une **course contre la montre** et nécessite une équipe b
 ## 📞 **Contacts utiles**
 🔹 **[Réseau asso nationnal](documents/resources-logistiques.md)**
 
-📌 **Contactez-nous si vous pouvez aider à :**
-🚚 **Trouver des solutions de transport ou prêter un véhicule**
-📦 **Stocker temporairement des biens**
-🛠 **Organiser le tri et la protection des affaires**
+- 📌 **Contactez-nous si vous pouvez aider à :**
+- 🚚 **Trouver des solutions de transport ou prêter un véhicule**
+- 📦 **Stocker temporairement des biens**
+- 🛠 **Organiser le tri et la protection des affaires**
 
 ---
 
