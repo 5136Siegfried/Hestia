@@ -12,3 +12,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   fadeElements.forEach(el => observer.observe(el));
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    let cards = document.querySelectorAll(".pole-card");
+
+    function revealCards() {
+        let windowHeight = window.innerHeight;
+        cards.forEach(card => {
+            let cardTop = card.getBoundingClientRect().top;
+            if (cardTop < windowHeight - 50) {
+                card.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", revealCards);
+    revealCards(); // Lancer au chargement
+});
