@@ -149,20 +149,62 @@ a:hover {
   color: #002050;
 }
 
-/* 🔹 Tableaux */
+
+/* 🔹 Transformer le tableau en cartes */
 table {
+  border-collapse: separate;
+  border-spacing: 15px; /* Espacement entre les cartes */
   width: 100%;
-  border-collapse: collapse;
 }
-th, td {
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: left;
+
+td {
+  background: #f8f9fa; /* Couleur de fond */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Effet d'ombre */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-th {
-  background-color: var(--primary-color);
+
+/* 🔹 Effet au survol */
+td:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔹 Alignement du texte */
+td strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+td a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #007acc;
   color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
+
+td a:hover {
+  background: #0056b3;
+}
+
+/* 🔹 Responsive : ajuster en mobile */
+@media (max-width: 768px) {
+  table {
+      display: block;
+  }
+  tr {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
 
 /* 🔹 Boutons */
 .button {
