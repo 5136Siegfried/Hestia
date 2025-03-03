@@ -16,10 +16,11 @@ Au delà de la question des expulsions qui sont un événement traumatique grave
 ---
 
 ## 🎯 Objectifs
-✅ **Structurer l’aide** en pôles spécialisés (mobilisation, logistique, hébergement, etc.).
-✅ **Fournir des outils concrets** pour agir efficacement.
-✅ **Encadrer les actions légalement** et éviter les risques judiciaires.
-✅ **Créer un réseau de solidarité** en collaboration avec des associations et citoyens.
+
+- ✅ **Structurer l’aide** en pôles spécialisés (mobilisation, logistique, hébergement, etc.).
+- ✅ **Fournir des outils concrets** pour agir efficacement.
+- ✅ **Encadrer les actions légalement** et éviter les risques judiciaires.
+- ✅ **Créer un réseau de solidarité** en collaboration avec des associations et citoyens.
 
 ---
 

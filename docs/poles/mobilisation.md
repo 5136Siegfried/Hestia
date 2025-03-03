@@ -73,9 +73,10 @@ Trop souvent, les expulsions se déroulent dans l'indifférence. En alertant les
 ---
 
 ## 🏴 **Comment agir maintenant ?**
-📢 **Rejoignez-nous et passez à l’action !**
-🔹 **Participez aux actions de soutien sur le terrain**
-🔹 **Aidez à rédiger et diffuser des communiqués**
-🔹 **Utilisez vos réseaux pour sensibiliser**
+
+- 📢 **Rejoignez-nous et passez à l’action !**
+- 🔹 **Participez aux actions de soutien sur le terrain**
+- 🔹 **Aidez à rédiger et diffuser des communiqués**
+- 🔹 **Utilisez vos réseaux pour sensibiliser**
 
 💬 **Besoin d’aide ou envie d’aider ? Contactez le pôle mobilisation !** 🚀

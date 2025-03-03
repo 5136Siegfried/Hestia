@@ -11,10 +11,11 @@ Ce plan vise à organiser une **réponse rapide et efficace** face aux expulsion
 Il repose sur une coordination entre **citoyens, associations et structures d’aide**.
 
 📌 **Nos priorités :**
-✅ Offrir un soutien immédiat aux personnes expulsées
-✅ Coordonner les actions pour une réponse efficace
-✅ Protéger les droits et éviter les abus
-✅ Assurer un suivi pour éviter la rechute dans la précarité
+
+- ✅ Offrir un soutien immédiat aux personnes expulsées
+- ✅ Coordonner les actions pour une réponse efficace
+- ✅ Protéger les droits et éviter les abus
+- ✅ Assurer un suivi pour éviter la rechute dans la précarité
 
 ---
 
@@ -22,6 +23,7 @@ Il repose sur une coordination entre **citoyens, associations et structures d’
 
 Le plan repose sur **9 pôles de gestion**, chacun ayant un rôle précis.
 L’action est organisée **avant, pendant et après** l’expulsion.
+Pour une application concrète : [Voir La Feuille de Route](feuille-de-route.md)
 
 💡 **Principe clé : l'anticipation.**
 Un **bon plan d’action** permet d’éviter des situations critiques.
@@ -49,27 +51,33 @@ Un **bon plan d’action** permet d’éviter des situations critiques.
 ## 🏠 **Procédure en cas d’expulsion**
 
 💥 **1. Alerte et mobilisation**
+
 - Vérifier les informations sur l’expulsion (date, situation légale)
 - Contacter les associations et réseaux locaux
 
 🚛 **2. Préparation logistique**
+
 - Organiser un **transport pour les biens personnels**
 - Mettre en place une **solution d’hébergement temporaire**
 
 🛑 **3. Intervention sur le terrain**
+
 - Présence sur place pour **accompagner les expulsés**
 - Récupération et stockage des biens si possible
 - Soutien moral et psychologique
 
 📄 **4. Recours juridiques**
+
 - Vérification des droits
 - Rédaction et dépôt de recours si possible
 
 📢 **5. Communication et médiatisation**
+
 - Informer et sensibiliser sur l’expulsion
 - Exercer une pression publique pour éviter d’autres cas similaires
 
 🛠 **6. Suivi post-expulsion**
+
 - Aide à la **relocalisation et réinsertion**
 - Suivi des recours légaux et des démarches administratives
 - Accompagnement psycho-social si nécessaire
