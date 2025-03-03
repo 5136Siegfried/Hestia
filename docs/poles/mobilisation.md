@@ -15,23 +15,27 @@ Trop souvent, les expulsions se déroulent dans l'indifférence. En alertant les
 
 ## 🔥 **Actions du pôle Mobilisation**
 🔹 **Identifier les expulsions à venir**
-✅ Surveiller les décisions de justice et les avis d'expulsion
-✅ Contacter les associations locales pour détecter les situations critiques
+
+- ✅ Surveiller les décisions de justice et les avis d'expulsion
+- ✅ Contacter les associations locales pour détecter les situations critiques
 
 🔹 **Organiser des actions de soutien sur place**
-✅ Présence physique lors des expulsions pour documenter la situation
-✅ Appel aux bénévoles pour être sur le terrain
-✅ Transmission en direct sur les réseaux sociaux
+
+- ✅ Présence physique lors des expulsions pour documenter la situation
+- ✅ Appel aux bénévoles pour être sur le terrain
+- ✅ Transmission en direct sur les réseaux sociaux
 
 🔹 **Faire pression sur les autorités et bailleurs**
-✅ Interpeller la mairie et les élus locaux
-✅ Relayer l'information auprès des députés et du préfet
-✅ Contacter directement les bailleurs sociaux et propriétaires privés
+
+- ✅ Interpeller la mairie et les élus locaux
+- ✅ Relayer l'information auprès des députés et du préfet
+- ✅ Contacter directement les bailleurs sociaux et propriétaires privés
 
 🔹 **Sensibiliser et informer sur le droit au logement**
-✅ Diffuser des tracts et affiches pour informer les habitants
-✅ Organiser des conférences et débats publics
-✅ Réaliser des campagnes sur les réseaux sociaux
+
+- ✅ Diffuser des tracts et affiches pour informer les habitants
+- ✅ Organiser des conférences et débats publics
+- ✅ Réaliser des campagnes sur les réseaux sociaux
 
 ---
 
