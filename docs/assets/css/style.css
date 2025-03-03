@@ -212,7 +212,7 @@ th {
   display: block;
 }
 
-/* 🔹 Grille des pôles */
+/* 🔹 Grille des pôles avec animation */
 .pole-grid {
   display: flex;
   flex-wrap: wrap;
@@ -220,6 +220,8 @@ th {
   margin: 20px 0;
   justify-content: center;
 }
+
+/* 🔹 Effet de survol et d'interaction */
 .pole-card {
   flex: 1 1 250px;
   background: #f0f4f8;
@@ -227,10 +229,79 @@ th {
   border-radius: 5px;
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  position: relative;
+  cursor: pointer;
 }
-.pole-card h3 {
-  margin-top: 0;
+
+/* 🔹 Effet hover : élévation et couleur */
+.pole-card:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  background: #e0efff;
 }
+
+/* 🔹 Animation d’apparition */
+.pole-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.pole-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 🔹 Ajout d’un effet flip (carte réversible) */
+.pole-card .card-front, .pole-card .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+  padding: 15px;
+}
+
+/* Face avant visible par défaut */
+.pole-card .card-front {
+  transform: rotateY(0);
+}
+
+/* Face arrière (informations supplémentaires) */
+.pole-card .card-back {
+  background: #dbe9ff;
+  color: #333;
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Animation au survol : la carte tourne */
+.pole-card:hover .card-front {
+  transform: rotateY(-180deg);
+}
+.pole-card:hover .card-back {
+  transform: rotateY(0);
+}
+
+/* 🔹 Responsive amélioré */
+@media (max-width: 768px) {
+  .pole-grid {
+      flex-direction: column;
+      align-items: center;
+  }
+  .pole-card {
+      flex: none;
+      width: 90%;
+  }
+}
+
 
 /* 🔹 En-tête visuel */
 .site-header {

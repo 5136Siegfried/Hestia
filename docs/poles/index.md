@@ -16,31 +16,59 @@ Chaque pôle joue un rôle essentiel dans **l’organisation et la gestion des e
 
 <div class="pole-grid">
     <div class="pole-card">
-        <h3>📣 Mobilisation</h3>
-        <p>Organiser la mobilisation et sensibiliser.</p>
+        <div class="card-front">
+            <h3>📣 Mobilisation</h3>
+            <p>Organiser la mobilisation et sensibiliser.</p>
+        </div>
+        <div class="card-back">
+            <p><strong>Actions :</strong> Manifs, pétitions, communication.</p>
+        </div>
         <a href="{{ site.baseurl }}/poles/mobilisation" class="button">Voir ➜</a>
     </div>
     <div class="pole-card">
-        <h3>🚚 Logistique</h3>
-        <p>Gérer le transport et le stockage des biens.</p>
+        <div class="card-front">
+            <h3>🚚 Logistique</h3>
+            <p>Gérer le transport et le stockage des biens.</p>
+        </div>
+        <div class="card-back">
+            <p><strong>Actions :</strong> Matériel, véhicules, déménagements.</p>
+        </div>
         <a href="{{ site.baseurl }}/poles/logistique" class="button">Voir ➜</a>
     </div>
+
     <div class="pole-card">
-        <h3>🏠 Hébergement</h3>
-        <p>Trouver des solutions de relogement.</p>
+        <div class="card-front">
+            <h3>🏠 Hébergement</h3>
+            <p>Trouver des solutions de relogement.</p>
+        </div>
+        <div class="card-back">
+            <p><strong>Actions :</strong> Mise en relation, solutions temporaires.</p>
+        </div>
         <a href="{{ site.baseurl }}/poles/hebergement" class="button">Voir ➜</a>
     </div>
+
     <div class="pole-card">
-        <h3>🍽️ Nourriture</h3>
-        <p>Gérer la distribution de repas.</p>
+        <div class="card-front">
+            <h3>🍽️ Nourriture</h3>
+            <p>Gérer la distribution de repas.</p>
+        </div>
+        <div class="card-back">
+            <p><strong>Actions :</strong> Collecte alimentaire, repas solidaires.</p>
+        </div>
         <a href="{{ site.baseurl }}/poles/nourriture" class="button">Voir ➜</a>
     </div>
+
     <div class="pole-card">
-        <h3>⚖️ Légal</h3>
-        <p>Aide juridique et défense des droits.</p>
+        <div class="card-front">
+            <h3>⚖️ Légal</h3>
+            <p>Aide juridique et défense des droits.</p>
+        </div>
+        <div class="card-back">
+            <p><strong>Actions :</strong> Assistance juridique, défense des locataires.</p>
+        </div>
         <a href="{{ site.baseurl }}/poles/legal" class="button">Voir ➜</a>
     </div>
-    <div class="pole-card">
+        <div class="pole-card">
         <h3>🏥 Santé</h3>
         <p>Assistance médicale et premiers secours</p>
         <a href="{{ site.baseurl }}/poles/sante" class="button">Voir ➜</a>
