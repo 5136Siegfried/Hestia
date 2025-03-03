@@ -113,6 +113,7 @@ Si les biens ne sont pas récupérés à temps, ils risquent d’être **mis en 
 - 📌 **Passé ce délai, ils peuvent être vendus aux enchères ou détruits.**
 
 ✅ **Comment les récupérer ?**
+
 - 📢 **Contactez au plus vite l’huissier** mentionné sur le procès-verbal d’expulsion.
 - 📢 **Demandez un délai supplémentaire** en invoquant des raisons médicales ou une solution de relogement en cours.
 - 📢 **Faites valoir vos droits auprès des services sociaux** pour obtenir une aide.
