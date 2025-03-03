@@ -34,6 +34,9 @@ title: "🏥 Pôle Santé & Premiers Secours"
 - 7️⃣ [💡 Ressources spécifiques](#ressources-specifiques)
 - 8️⃣ [📢 Contacts utiles](#contacts-utiles)
 
+**DOSSIER COMPLET** [📢 ICI ](documents/sante.md)
+
+
 # 🩹 Premiers Secours en Maraude
 
 ## 🏥 **Évaluer l’état de santé des personnes expulsées**
